@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* General page styles */
+.home {
+  text-align: center;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  justify-content: space-between; /* Space between logo and navbar */
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+/* Logo styles */
+.logo {
+  height: 50px;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex; /* Ensures the navbar items are aligned horizontally */
+  justify-content: flex-end; /* Aligns the links to the right */
+  gap: 15px; /* Adds space between links */
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #d84b00; /* Optional: color to match the theme */
+}
+

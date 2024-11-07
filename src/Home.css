@@ -1,0 +1,123 @@
+.home {
+    text-align: center;
+  }
+  
+  /* Header */
+  .header {
+    padding: 20px;
+    background-color: rgb(226, 116, 116);
+  }
+  
+  /* Hero Section */
+  .hero {
+    position: relative;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 12px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Menu Favorites Section */
+  .menu-favorites {
+    margin: 50px 0;
+  }
+  
+  .favorites-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .favorite-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .view-menu-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d84b00;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .view-menu-button:hover {
+    background-color: #c14400;
+  }
+  
+  /* Image Gallery Section */
+  .image-gallery {
+    margin: 50px 0;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .view-gallery-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #d84b00;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .view-gallery-button:hover {
+    background-color: #c14400;
+  }
+  
+  /* Footer Section */
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-social a {
+    margin: 0 10px;
+    color: #3b5998;
+    text-decoration: none;
+  }
+  
+  .footer-social a:hover {
+    color: #d84b00;
+  }
