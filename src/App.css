@@ -4,7 +4,6 @@ body {
   padding: 0;
 }
 
-/* General page styles */
 .home {
   text-align: center;
 }
@@ -12,22 +11,20 @@ body {
 /* Header styles */
 .header {
   display: flex;
-  justify-content: space-between; /* Space between logo and navbar */
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: white;
 }
 
-/* Logo styles */
 .logo {
   height: 50px;
 }
 
-/* Navbar styles */
 .navbar {
-  display: flex; /* Ensures the navbar items are aligned horizontally */
-  justify-content: flex-end; /* Aligns the links to the right */
-  gap: 15px; /* Adds space between links */
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
 }
 
 .navbar a {
@@ -37,6 +34,61 @@ body {
 }
 
 .navbar a:hover {
-  color: #d84b00; /* Optional: color to match the theme */
+  color: #d84b00;
+}
+
+.menu-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-header {
+  text-align: center;
+}
+
+.menu-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+
+.menu-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.menu-item {
+  padding: 15px;
+}
+
+.menu-item > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-price {
+  font-weight: bold;
+}
+
+.menu-item p {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+.menu-item hr {
+  margin-top: 10px;
+  border: none;
+  border-top: 1px solid #ccc;
 }
 
