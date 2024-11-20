@@ -14,7 +14,7 @@
   }
   
   .hero-image {
-    width: 100%;
+    width: auto;
     height: auto;
     max-height: 500px;
   }

@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: auto;
+  }
+  
+  .about {
+    padding: 90px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: auto; /* Center content horizontally */
+  }
+  
+  /* About Us Section */
+  .about-section {
+    width: 100%;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center section horizontally */
+  }
+  
+  .about-section h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      position: fixed;
+      /*Keeps the title fixed on the page */
+      top: 90px;
+      /* Distance from the top of the page */
+      left: 50%;
+      /* Centers it horizontally */
+      transform: translateX(-50%);
+      /* Adjusts the center position */
+      z-index: 1000;
+      /* Keeps it above other elements */
+      background-color: white;
+      /* Optional: Adds a background color */
+      padding: 10px;
+      /* Optional: Adds padding around the title */
+      margin: 0;
+      /* Ensures no margin around the fixed title */
+  }
+  
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Center content vertically */
+    justify-content: center; /* Center content horizontally */
+    gap: 40px;
+  }
+  
+  .text-content {
+    max-width: 400px;
+    text-align: center; /* Center the text inside the content */
+  }
+  
+  .text-content h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .text-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .image-content {
+    flex-shrink: 0;
+  }
+  
+  .about-image {
+    width: 300px;
+    height: 200px;
+    background-color: black; /* Replace with your image */
+    border-radius: 10px;
+  }
+  
+  /* Meet the Crew Section */
+  .crew-section {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .crew-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .crew-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .crew-member {
+    width: 150px;
+    height: 200px;
+    background-color: black; /* Replace with crew images */
+    border-radius: 10px;
+  }

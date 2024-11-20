@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  padding-top: 100px;
 }
 
 .home {
@@ -15,10 +15,14 @@ body {
   align-items: center;
   padding: 20px;
   background-color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; /* Ensures it's on top of other content */
 }
 
 .logo {
-  height: 50px;
+  height: 90px;
 }
 
 .navbar {
@@ -35,60 +39,5 @@ body {
 
 .navbar a:hover {
   color: #d84b00;
-}
-
-.menu-page {
-  padding: 20px;
-  font-family: Arial, sans-serif;
-}
-
-.menu-header {
-  text-align: center;
-}
-
-.menu-logo {
-  height: 80px;
-  margin-bottom: 20px;
-}
-
-h1 {
-  font-size: 2.5em;
-  font-weight: bold;
-}
-
-h2 {
-  font-size: 1.5em;
-  margin-bottom: 30px;
-}
-
-.menu-list {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 30px;
-}
-
-.menu-item {
-  padding: 15px;
-}
-
-.menu-item > div {
-  display: flex;
-  justify-content: space-between;
-}
-
-.menu-price {
-  font-weight: bold;
-}
-
-.menu-item p {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 5px;
-}
-
-.menu-item hr {
-  margin-top: 10px;
-  border: none;
-  border-top: 1px solid #ccc;
 }
 

@@ -1,0 +1,86 @@
+
+.menu {
+    text-align: center;
+  }  
+  .menu-page {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;        /* Ensure the menu takes at least the full height of the viewport */
+    display: block;           /* Make sure the display is block-level */
+    margin: 0 auto;  
+    padding-top: 120px;         /* Horizontally center the menu */
+    
+  }
+  .menu-header {
+    text-align: center;
+  } 
+  
+  .menu-logo {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    position: fixed;   /*Keeps the title fixed on the page */
+    top: 90px;         /* Distance from the top of the page */
+    left: 50%;         /* Centers it horizontally */
+    transform: translateX(-50%); /* Adjusts the center position */
+    z-index: 1000;     /* Keeps it above other elements */
+    background-color: white; /* Optional: Adds a background color */
+    padding: 10px;     /* Optional: Adds padding around the title */
+    margin: 0;         /* Ensures no margin around the fixed title */
+  }
+  
+  body {
+    margin-top: 8px;  /* Adds space at the top so the content doesn’t hide behind the fixed title */
+  }
+  
+  h2 {
+    font-size: 1em;
+    margin-bottom: 30px;
+  }
+  .menu-item h3 {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0); /* Darker color */
+    font-family: 'Helvetica Neue', sans-serif; /* Change font */
+  }
+  
+  .menu-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    list-style-type: none;
+    padding: 80;
+    /* position: fixed; */
+    width: 100%;
+    margin: 0;    
+    transform: translateX(50%); /* centers it */ 
+
+  }
+  
+  .menu-item {
+    padding: 15px;
+  }
+  
+  .menu-item > div {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu-price {
+    font-weight: bold;
+  }
+  
+  .menu-item p {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .menu-item hr {
+    margin-top: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
